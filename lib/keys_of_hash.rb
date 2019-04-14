@@ -5,7 +5,7 @@ class Hash
     keys = []
     self.each do |key, value|
       binding.pry
-         if value = [value] == *arguments 
+         if value = [value] == arguments 
          #binding.pry  
           keys << key
         end
