@@ -4,9 +4,9 @@ class Hash
   def keys_of(*arguments)
     keys = []
     self.each do |key, *value|
-      binding.pry
+      #binding.pry
       arguments.each do |argument|
-        #binding.pry
+        binding.pry
          if value = [value] == argument
          binding.pry  
           keys << key
