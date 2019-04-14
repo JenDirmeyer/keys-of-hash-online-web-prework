@@ -8,7 +8,7 @@ class Hash
       arguments.each do |argument|
         #binding.pry
          if value == argument
-         binding.pry  
+         #binding.pry  
           keys << key
         end
       end  
