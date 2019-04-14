@@ -6,7 +6,7 @@ class Hash
     self.each do |key, *value|
       #binding.pry
       arguments.each do |argument|
-        #binding.pry
+        binding.pry
          if value == argument
          binding.pry  
           keys << key
